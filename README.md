@@ -1,6 +1,6 @@
 # Discord.JS Bot Base
 
-This package is a fully built, and working [Discord.js](https://www.discord.js.org) Starter Bot for anyone looking to get started developing for the [Discord](https://discord.gg/) Community. Please note, this package assumes you have basic understanding of JavaScript and can read over the [Discord.js Documentation](https://discord.js.org/docs/packages/discord.js/main) to proceed on your own..
+This package is a fully built, and working [Discord.js](https://www.discord.js.org) Starter Bot for anyone looking to get started developing for the [Discord](https://discord.gg/) Community. Please note, this package assumes you have basic understanding of JavaScript and can read over the [Discord.js Documentation](https://discord.js.org/docs/packages/discord.js/main) to proceed on your own.
 
 # Installation
 
@@ -17,6 +17,8 @@ Cloning with GIT assumes you already know how to open the terminal to the locati
 Click the Green "Code" button on the Top Right of the GitHub Page. Then Click "Download Zip".
 
 Next, Extract the downloaded Zip Folder to wherever you would like your bot to stay.
+
+Or just go to the releases tab and download and extract that zip, whatever you like.
 
 ### Opening The Console
 
