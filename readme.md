@@ -59,7 +59,7 @@ npm i discord.js mongoose colors
 
 Go to [Discord Developers](https://discord.com/developers), open your application (or create one), and navigate to the **Bot** tab.  
 Click **Reset Token** and **Copy**.  
-This is the token you paste into `sensitive.json`.
+This is the token you paste into `sensitive.json` or in the quickstart assistant when you first run the bot.
 
 **⚠️ NEVER share your token with anyone.**
 
@@ -74,7 +74,7 @@ In **Connect > Drivers**, copy the connection string:
 ```
 mongodb+srv://username:<password>@cluster.mongodb.net/?retryWrites=true&w=majority
 ```
-Replace `<password>` with your database user password, then put this full string into `sensitive.json`.
+Replace `<password>` with your database user password, then put this full string into `sensitive.json` or in the quickstart assistant when you first run the bot.
 
 ---
 
