@@ -1,0 +1,44 @@
+{
+    "Var": {
+      "Prefix": "!"
+    },
+    "Staff": {
+      "Roles": {
+        "Staff_Role_One": "Staff Role ID",
+        "Staff_Role_Two": "Staff Role 2 ID"
+      }
+    },
+    "Channels": {
+      "Error": "[ENTER ERROR CHANNEL ID HERE]",
+      "Example": "1234567890",
+      "Categories": {
+        "Example": "1234567890"
+      }
+    },
+    "Colors": {
+        "Success": "#15ff00",
+        "Failure": "#c92020",
+        "Green": "#00ff00",
+        "Red": "#ff0000",
+        "Error": "#ff1808",
+        "Generic": {
+          "Dark": "#222222",
+          "Medium": "#333333",
+          "Light": "#444444",
+          "Match": "#2b2d31"
+        }
+    },
+    "Emojis": {
+      "Emoji_1": "EmojiIdentifier"
+    },
+    "Bypass": {
+        "Users": [
+            "User ID To Bypass Perms",
+            "User ID 2 To Bypass Perms"
+        ],
+        "Roles": [
+            "Role ID to Bypass Perms",
+            "Role ID 2 to Bypass Perms"
+        ]
+    }
+}
