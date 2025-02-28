@@ -15,10 +15,19 @@ module.exports = (client) => {
       const commandFiles = fs.readdirSync(`${path}/${folder}`).filter(file => file.endsWith('.js'));
       for (const file of commandFiles) {
         const command = require(`../commands/${folder}/${file}`);
-        client.commands.set(command.data.name, command);
-        client.commandArray.push(command.data.toJSON());
-        console.log('[ COMMANDS ]'.bold.yellow + ' Loaded Command:'.bold + ` ${command.data.name.toUpperCase()}`.bold.yellow);
-        count++
+        
+        if (command.active) {
+          if (!command.prefix) {
+            client.commands.set(command.data.name, command);
+            client.commandArray.push(command.data.toJSON());
+            console.log('[ COMMANDS ]'.bold.yellow + ' Loaded Command:'.bold + ` ${command.data.name.toUpperCase()}`.bold.yellow);
+            count++
+          } else {
+            client.prefixCommands.set(command.data.name, command);
+            console.log('[ PREFIX ]'.bold.yellow + ' Loaded Prefix Command:'.bold + ` ${command.data.name.toUpperCase()}`.bold.yellow);
+            count++
+          }
+        }
       }
     }
     console.log('[ HANDLERS ]'.bold.blue + ` ${count} ` + 'COMMANDS '.bold.blue + 'Loaded')

@@ -95,14 +95,6 @@ async function validateSensitiveData() {
     } else {
         // console.log(colors.yellow("\nNo updates needed."));
     }
-
-    setTimeout(() => {
-        console.log(' ')
-        console.log(colors.bold.red('#######################################'));
-        console.log(colors.bold.red('# Thank You For Using Kry\'s Bot Base! #'));
-        console.log(colors.bold.red('#   https://github.com/developerkry   #'));
-        console.log(colors.bold.red('#######################################'));
-    }, 3500);
 }
 
 module.exports = {

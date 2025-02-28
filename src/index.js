@@ -3,6 +3,7 @@ const fs = require('fs');
 const client = new Client({ intents: 3276799 }); 
 
 client.commands = new Collection();
+client.prefixCommands = new Collection()
 client.config = require('../config.json')
 client.sensitive = require('../sensitive.json')
 

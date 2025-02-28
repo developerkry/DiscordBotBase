@@ -1,4 +1,7 @@
 {
+    "Var": {
+      "Prefix": "!"
+    },
     "Staff": {
       "Roles": {
         "Staff_Role_One": "Staff Role ID",

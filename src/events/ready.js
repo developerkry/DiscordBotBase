@@ -20,6 +20,21 @@ module.exports = {
 				` ${client.user.username}`.bold.cyan
 		);
 		// console.log(" ");
-		
+
+		function heartbeat() {
+			setTimeout(() => {
+				heartbeat()
+			}, 5000);
+		}
+
+		heartbeat()
+
+		setTimeout(() => {
+			console.log(' ')
+			console.log('#######################################'.bold.red);
+			console.log('# Thank You For Using Kry\'s Bot Base! #'.bold.red);
+			console.log('#   https://github.com/developerkry   #'.bold.red);
+			console.log('#######################################'.bold.red);
+		}, 3500);
 	},
 };

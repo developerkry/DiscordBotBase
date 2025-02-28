@@ -7,8 +7,8 @@ module.exports = {
   data: new SlashCommandBuilder()
     .setName("test")
     .setDescription("Test command")
-    .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
-    .setDMPermission(true),
+    .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
+    active: true,
   async execute(interaction, client) {
     await interaction.reply({
       content: `**Self Destructing In...**\n# 5`,
